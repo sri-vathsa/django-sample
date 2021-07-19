@@ -1,4 +1,4 @@
-FROM python:3.7.5-slim
+FROM devfactory/workspace-full:latest
 ENV DEBIAN_FRONTEND=noninteractive
 ADD . .
 RUN pip install django
